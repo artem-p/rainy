@@ -1,11 +1,11 @@
 import './App.css';
-import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
+import Controls from './Controls.js';
 
 
 function App() {
   return (
     <div className="app">
-      
+      <Controls />
     </div>
   );
 }
