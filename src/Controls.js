@@ -7,7 +7,7 @@ import React from 'react'
 function Controls() {
     return (
         <div className="controls">
-            <button className="controls__playButton"><PlayCircleOutlineIcon /></button>
+            <PlayCircleOutlineIcon className="controls__playButton"/>
         </div>
     )
 }
