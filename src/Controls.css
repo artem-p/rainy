@@ -2,7 +2,7 @@
     margin-top: 150px;
 }
 
-.controls__playButton {
+.controls__playButton  .MuiSvgIcon-root {
     font-size: 250px !important;
     color: white;
 }

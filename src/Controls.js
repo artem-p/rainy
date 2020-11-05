@@ -11,8 +11,8 @@ function Controls() {
 
     return (
         <div className="controls">
-            <IconButton onClick={togglePlay}>
-                {play ? <PauseCircleOutlineIcon className="controls__playButton" /> : <PlayCircleOutlineIcon className="controls__playButton"/>}
+            <IconButton onClick={togglePlay} className="controls__playButton">
+                {play ? <PauseCircleOutlineIcon /> : <PlayCircleOutlineIcon />}
             </IconButton>
         </div>
     )
