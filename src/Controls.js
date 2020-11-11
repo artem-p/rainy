@@ -8,14 +8,16 @@ import rainSoundFile from './sound/rainfall.ogg';
 
 function Controls() {
     const [rainSound] = useState(new Audio(rainSoundFile));
+    rainSound.loop = true;
     const [play, handlePlay] = useState(false);
     
     const togglePlay = () => handlePlay(!play);
 
     useEffect(() => {
         play ? rainSound.play() : rainSound.pause();
-        
-    }, [play, rainSound])
+    }, 
+    [play, rainSound])
+
 
     return (
         <div className="controls">
